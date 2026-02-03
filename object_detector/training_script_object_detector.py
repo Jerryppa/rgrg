@@ -19,10 +19,10 @@ from torch.optim.lr_scheduler import ReduceLROnPlateau
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
-from src.dataset.constants import ANATOMICAL_REGIONS
-from src.object_detector.custom_image_dataset_object_detector import CustomImageDataset
-from src.object_detector.object_detector import ObjectDetector
-from src.path_datasets_and_weights import path_full_dataset, path_runs_object_detector
+from dataset.constants import ANATOMICAL_REGIONS
+from object_detector.custom_image_dataset_object_detector import CustomImageDataset
+from object_detector.object_detector import ObjectDetector
+from path_datasets_and_weights import path_full_dataset, path_runs_object_detector
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
