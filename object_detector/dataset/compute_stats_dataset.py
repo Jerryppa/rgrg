@@ -5,9 +5,9 @@ import os
 
 from tqdm import tqdm
 
-from  dataset.constants import ANATOMICAL_REGIONS, IMAGE_IDS_TO_IGNORE
+from  object_detector.dataset.constants import ANATOMICAL_REGIONS, IMAGE_IDS_TO_IGNORE
 
-from  path_datasets_and_weights import path_chest_imagenome
+from  object_detector.path_datasets_and_weights import path_chest_imagenome
 
 txt_file_to_log_stats = "/u/home/tanida/datasets/dataset_stats.txt"
 

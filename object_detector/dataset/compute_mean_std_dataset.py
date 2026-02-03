@@ -4,7 +4,7 @@ import cv2
 import numpy as np
 from tqdm import tqdm
 
-from path_datasets_and_weights import path_mimic_cxr_jpg
+from object_detector.path_datasets_and_weights import path_mimic_cxr_jpg
 
 TOL = 1e-4
 COUNTER_PATIENCE = 50
