@@ -1,8 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="rgrg",
+    name="object_detector",
     version="1.0",
-    packages=find_packages(where="src"),
-    package_dir={"src": "src"},
+    packages=["object_detector"],
 )
